@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Gadge
 {
-    public partial class Form_cal : Form
+    public partial class Form_Cal : Form
     {
-        public Form_cal()
+        public Form_Cal()
         {
             InitializeComponent();
         }

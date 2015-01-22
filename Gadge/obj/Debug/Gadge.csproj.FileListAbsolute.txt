@@ -1,1 +1,11 @@
 c:\users\yu\documents\visual studio 2012\Projects\Gadge\Gadge\bin\Debug\Gadge.exe.config
+C:\Users\Yu\documents\visual studio 2012\Projects\Gadge\Gadge\bin\Debug\Gadge.exe
+C:\Users\Yu\documents\visual studio 2012\Projects\Gadge\Gadge\bin\Debug\Gadge.pdb
+C:\Users\Yu\documents\visual studio 2012\Projects\Gadge\Gadge\obj\Debug\Gadge.csprojResolveAssemblyReference.cache
+C:\Users\Yu\documents\visual studio 2012\Projects\Gadge\Gadge\obj\Debug\Gadge.Form1.resources
+C:\Users\Yu\documents\visual studio 2012\Projects\Gadge\Gadge\obj\Debug\Gadge.Form_Cal.resources
+C:\Users\Yu\documents\visual studio 2012\Projects\Gadge\Gadge\obj\Debug\Gadge.Form_Note.resources
+C:\Users\Yu\documents\visual studio 2012\Projects\Gadge\Gadge\obj\Debug\Gadge.Properties.Resources.resources
+C:\Users\Yu\documents\visual studio 2012\Projects\Gadge\Gadge\obj\Debug\Gadge.csproj.GenerateResource.Cache
+C:\Users\Yu\documents\visual studio 2012\Projects\Gadge\Gadge\obj\Debug\Gadge.exe
+C:\Users\Yu\documents\visual studio 2012\Projects\Gadge\Gadge\obj\Debug\Gadge.pdb

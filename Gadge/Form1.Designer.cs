@@ -32,11 +32,13 @@
             this.button_timer = new System.Windows.Forms.Button();
             this.button_cal = new System.Windows.Forms.Button();
             this.button_note = new System.Windows.Forms.Button();
+            this.button_quit = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button_quit);
             this.panel1.Controls.Add(this.button_timer);
             this.panel1.Controls.Add(this.button_cal);
             this.panel1.Controls.Add(this.button_note);
@@ -76,12 +78,23 @@
             this.button_note.UseVisualStyleBackColor = true;
             this.button_note.Click += new System.EventHandler(this.button_note_Click);
             // 
+            // button_quit
+            // 
+            this.button_quit.Location = new System.Drawing.Point(3, 193);
+            this.button_quit.Name = "button_quit";
+            this.button_quit.Size = new System.Drawing.Size(179, 65);
+            this.button_quit.TabIndex = 3;
+            this.button_quit.Text = "QUIT";
+            this.button_quit.UseVisualStyleBackColor = true;
+            this.button_quit.Click += new System.EventHandler(this.button_quit_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(186, 364);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
@@ -95,6 +108,7 @@
         private System.Windows.Forms.Button button_timer;
         private System.Windows.Forms.Button button_cal;
         private System.Windows.Forms.Button button_note;
+        private System.Windows.Forms.Button button_quit;
 
     }
 }

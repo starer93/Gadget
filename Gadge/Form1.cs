@@ -21,17 +21,25 @@ namespace Gadge
         private void button_note_Click(object sender, EventArgs e)
         {
             Form_Note noteForm = new Form_Note();
+            noteForm.Location = this.Location;
             noteForm.Show();
         }
 
         private void button_cal_Click(object sender, EventArgs e)
         {
-
+            Form_Cal calForm = new Form_Cal();
+            calForm.Show();
         }
 
         private void button_timer_Click(object sender, EventArgs e)
         {
+            Form_timer timerForm = new Form_timer();
+            timerForm.Show();
+        }
 
+        private void button_quit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
     }
