@@ -1,20 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace Gadge
 {
-    public partial class Form_Note : Form
+    class Note
     {
-        public Form_Note()
+        public string note { set; get; }
+        public string subject { set; get; }
+
+        public Note(string note, string subject)
         {
-            InitializeComponent();
+            this.note = note;
+            this.subject = subject;
         }
     }
 }
