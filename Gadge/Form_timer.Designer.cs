@@ -30,8 +30,8 @@
         {
             this.button_start = new System.Windows.Forms.Button();
             this.button_stop = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox_min = new System.Windows.Forms.TextBox();
+            this.textBox_second = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -56,19 +56,19 @@
             this.button_stop.UseVisualStyleBackColor = true;
             this.button_stop.Click += new System.EventHandler(this.button_stop_Click);
             // 
-            // textBox1
+            // textBox_min
             // 
-            this.textBox1.Location = new System.Drawing.Point(13, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 2;
+            this.textBox_min.Location = new System.Drawing.Point(13, 12);
+            this.textBox_min.Name = "textBox_min";
+            this.textBox_min.Size = new System.Drawing.Size(100, 20);
+            this.textBox_min.TabIndex = 2;
             // 
-            // textBox2
+            // textBox_second
             // 
-            this.textBox2.Location = new System.Drawing.Point(13, 38);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 3;
+            this.textBox_second.Location = new System.Drawing.Point(13, 38);
+            this.textBox_second.Name = "textBox_second";
+            this.textBox_second.Size = new System.Drawing.Size(100, 20);
+            this.textBox_second.TabIndex = 3;
             // 
             // label1
             // 
@@ -95,8 +95,8 @@
             this.ClientSize = new System.Drawing.Size(184, 102);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox_second);
+            this.Controls.Add(this.textBox_min);
             this.Controls.Add(this.button_stop);
             this.Controls.Add(this.button_start);
             this.Name = "Form_timer";
@@ -110,8 +110,8 @@
 
         private System.Windows.Forms.Button button_start;
         private System.Windows.Forms.Button button_stop;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox_min;
+        private System.Windows.Forms.TextBox textBox_second;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }

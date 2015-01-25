@@ -9,3 +9,4 @@ C:\Users\Yu\documents\visual studio 2012\Projects\Gadge\Gadge\obj\Debug\Gadge.Pr
 C:\Users\Yu\documents\visual studio 2012\Projects\Gadge\Gadge\obj\Debug\Gadge.csproj.GenerateResource.Cache
 C:\Users\Yu\documents\visual studio 2012\Projects\Gadge\Gadge\obj\Debug\Gadge.exe
 C:\Users\Yu\documents\visual studio 2012\Projects\Gadge\Gadge\obj\Debug\Gadge.pdb
+C:\Users\Yu\documents\visual studio 2012\Projects\Gadge\Gadge\obj\Debug\Gadge.Form_timer.resources
